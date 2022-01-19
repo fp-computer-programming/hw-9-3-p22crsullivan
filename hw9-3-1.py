@@ -22,7 +22,7 @@ elif temperature_scale == "f":
     finally:
         answer3 = input("Find another temperature? (y/n)")
         if answer3 == "y":
-            temperature
+            temperature = int(input("Input a temperature."))
         else:
             print("Have a good day!")
 else:
